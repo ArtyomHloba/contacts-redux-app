@@ -1,7 +1,7 @@
-import ContactsForm from "../../ContactForm";
-import ContactsList from "../../ContactsList";
+import ContactsForm from '../../ContactForm';
+import ContactsList from '../../ContactsList';
 
-function ContactsPage() {
+function ContactsPage () {
   return (
     <div>
       <h1>Contacts</h1>

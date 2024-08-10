@@ -1,6 +1,6 @@
-import ContactsPage from "./components/pages/ContactsPage";
+import ContactsPage from './components/pages/ContactsPage';
 
-function App() {
+function App () {
   return <ContactsPage />;
 }
 
