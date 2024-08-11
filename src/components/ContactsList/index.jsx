@@ -4,6 +4,7 @@ import {
   removeContact,
   toggleFavourite,
 } from '../../store/slices/contactsSlice/contsctsSlice';
+import styles from './ContactsList.module.css';
 
 function ContactsList ({ contacts, remove, toggle }) {
   const mapContacts = c => (
@@ -11,7 +12,7 @@ function ContactsList ({ contacts, remove, toggle }) {
   );
 
   return (
-    <section>
+    <section className={styles.section}>
       <h2>Contacts List</h2>
       <ul>{contacts.map(mapContacts)}</ul>
     </section>

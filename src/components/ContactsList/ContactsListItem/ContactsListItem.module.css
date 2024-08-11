@@ -1,20 +1,21 @@
 .contactItem {
   position: relative;
-  max-width: 250px;
+  max-width: 400px;
   min-width: 50px;
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 10px;
   padding: 10px;
-  margin: 10px;
   border-radius: 10px;
   box-shadow: 0 0 5px white;
   transition: transform 0.2s ease-in-out;
+  margin-top: 25px;
 }
 
 .contactItem:hover {
   transform: scale(1.05);
+  box-shadow: 0 0 10px white;
 }
 
 .starBtn {

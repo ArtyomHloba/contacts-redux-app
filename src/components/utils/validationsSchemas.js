@@ -5,10 +5,7 @@ export const CONTACTS_VALIDATION_SCHEMA = yup.object({
     .string()
     .min(2)
     .max(64)
-    .matches(
-      /^[A-Z][a-z]{1,31}( [A-Z][a-z]{1,32})?$/,
-      'Names must starts with capital letter'
-    )
+    .matches(/^[A-Z][a-z]{1,31}( [A-Z][a-z]{1,32})?$/, 'Ведите латиницей')
     .required(),
   phoneNumber: yup
     .string()
